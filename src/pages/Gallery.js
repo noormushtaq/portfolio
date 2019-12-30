@@ -12,6 +12,7 @@ import photo1 from './photo1.jpg';
 import photo3 from './photo3.jpg';
 import photo4 from './photo4.jpg';
 import photo5 from './photo5.jpg';
+import cartoon from './cartoon.png';
 
 import daycareflyer from './daycareflyer.png';
 import daycare from './daycare.png';
@@ -41,7 +42,8 @@ function handledisplay(display){
                         <img src={photo1} alt="" onClick={() => handledisplay(photo1)}/> 
                         <img src={photo3} alt="" onClick={() => handledisplay(photo3)} /> 
                         <img src={photo4} alt="" onClick={() => handledisplay(photo4)}/> 
-                        <img src={photo5} alt="" onClick={() => handledisplay(photo5)}/> 
+                        <img src={photo5} alt="" onClick={() => handledisplay(photo5)}/>
+                        <img src={cartoon} alt="" onClick={() => handledisplay(cartoon)}/> 
                     </div>
 
                     <div className="photoContainer">
@@ -77,23 +79,22 @@ function handledisplay(display){
 
                   <div  className="Design">
                      <h2>Design</h2> 
-                       
-                    <div class="row">
-
-                      <div class="column">
-                         <img src={daycareflyer} />
-                      </div>
-                      <div class="column">
-                         <img src={daycare} />
-                      </div>
-
-
-                    </div>
-
+                     <div class="row">
+                        <div class="column">
+                            <img src={daycareflyer} />
+                        </div>
+                        <div class="column">
+                            <img src={daycare} />
+                        </div>
+                     </div>
                   </div>
+                  <br />
+                  <br />
                           
                       
               </div>
+
+             
            
                
            </main>

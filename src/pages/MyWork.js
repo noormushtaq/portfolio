@@ -33,6 +33,9 @@ function MyWork(){
              <img src={daycare} alt=""></img>
             </a> 
            </div>
+           <br />
+           <br />
+           <br />
 
         </div>
     )

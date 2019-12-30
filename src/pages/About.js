@@ -1,9 +1,11 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+
 import Resume from './Resume.pdf';
 
 function About(){
 
+  
+ 
     return(
         <div className="Resume">
             <main>
@@ -74,9 +76,11 @@ function About(){
 
             <div className="download">
                 <h3>here you can download my Resume</h3>
-                <Link to={Resume} target="_blank" download>Download</Link>
+                <a href={Resume}>Download</a>
             </div>
             </main>
+            <br />
+            <br />
         </div>
     )
 

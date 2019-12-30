@@ -1,5 +1,6 @@
 import React from 'react';
-import Image2 from './Image2.jpg'
+import Image2 from './Image2.jpg';
+import {Link} from 'react-router-dom';
 
 function Index(){
 
@@ -15,19 +16,25 @@ function Index(){
                     <div className="hero-text">
                     <h3>Hello, I am</h3>
                     <h1 className="my-name"> Noor</h1>
-                    <p>
-                        I am a web developer and illustrator.
+                      <p>
+                        I am a web developer / designer
                         <br/>
-                        I enjoy to design and develope websites as a front end developer. I have a good experience in HTML, CSS, and JavaScript. I can develop and design websites using REACT JS. 
+                          Live in saskatoon, Saskatchewan Canada.
                         <br/>
-                        When I'm not coding, I illustrate using photoshop and Wacom. I paint by Acrylic or coloured pencil. I have a good experience in video editing. I like cooking and making sweets.
+                          I have passion for web design and develop.
                         <br/>
-                        To know more about me, Go to Resume page
+                          I have valuable experience in HTML, CSS, and JavaScript. I can develop and design websites using REACT JS.
+                          <br />
+                          When I'm not coding, I illustrate using photoshop and Wacom. I paint by Acrylic or coloured pencil. I have a good experience in video editing. I like cooking and making sweets.
+                        <br />
+                         Here you can find my <Link to="/about">Resume</Link> to know more about me
                         </p>
                     </div>
-            
+
            </body>
-            
+
+                   
+                   
             </main>
         </div>
     )

@@ -80,6 +80,7 @@ body, html {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
+ 
 }
 
 .contact-title {
@@ -219,7 +220,7 @@ body, html {
  margin-top: 50px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 30px;
+  margin-bottom: 200px;
   background: rgb(241, 241, 247);
   padding-left: 30px;
   padding-top:20px ;
@@ -228,6 +229,7 @@ body, html {
   display: flex;
   align-items: center;
   border-radius: 15px;
+
   }
 
   .download a{
@@ -543,9 +545,10 @@ body, html {
             
  .contactTitle{
   padding-top: 20px;
- text-align: center;
- font-family: sans-serif;
- color: rgb(5, 5, 121);
+  text-align: center;
+  font-family: sans-serif;
+  color: rgb(5, 5, 121);
+  margin-top: 100px;
 }
  
  .social-icons img{
@@ -564,6 +567,9 @@ body, html {
   opacity: 0.4;
   box-shadow: 2px 3px 3px gray;
 }
+.MyWorkIcons{
+  margin-bottom: 200px;
+}
 
 
 .Design{
@@ -572,7 +578,7 @@ body, html {
   margin-top: 100px;
   margin-left: 100px;
   margin-right: 100px;
-  margin-bottom: 300px;
+  margin-bottom: 500px;
 }
 
 .logoIcons img{
@@ -590,3 +596,4 @@ body, html {
   opacity: 0.4;
  
 }
+

@@ -25,6 +25,8 @@ function Logos(){
                 <img src={bmi} alt="" />
                 <img src={onlinedoctor} alt="" />
             </div>
+            <br />
+            <br />
         </div>
     )
 }

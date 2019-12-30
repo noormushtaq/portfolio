@@ -43,8 +43,11 @@ function Contact(){
                    <img src={youtube} alt="" /> 
                 </a>
             </div>
-         </div>   
-        </div>
+         </div> 
+         <br />
+         <br />
+         <br />
+      </div>
     )
 }
 
