@@ -14,26 +14,37 @@ function Index(){
           
                     </div>
                     <div className="hero-text">
+
+                    <div className="MyName">
+
                     <h3>Hello, I am</h3>
-                    <h1 className="my-name"> Noor</h1>
-                      <p>
+                    
+                     <h1 className="my-name"> Noor</h1>
+                    </div>
+                      <p className="changeTheColor">
                         I am a web developer / designer
                         <br/>
                           Live in saskatoon, Saskatchewan Canada.
                         <br/>
                           I have passion for web design and develop.
                         <br/>
-                          I have valuable experience in HTML, CSS, and JavaScript. I can develop and design websites using REACT JS.
+                          I have valuable experience in HTML, CSS, and JavaScript. I can develop and design websites using REACTJS.
                           <br />
                           When I'm not coding, I illustrate using photoshop and Wacom. I paint by Acrylic or coloured pencil. I have a good experience in video editing. I like cooking and making sweets.
                         <br />
                          Here you can find my <Link to="/about">Resume</Link> to know more about me
                         </p>
+                        <div className="line"></div>
                     </div>
 
-           </body>
-
                    
+                   <div>
+                 
+                   </div>
+                  
+           </body>
+                
+    
                    
             </main>
         </div>

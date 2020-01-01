@@ -109,6 +109,113 @@ body, html {
   font-size: 17px;
   }
 
+  .changeTheColor {
+    -webkit-animation-name: example; 
+    -webkit-animation-duration: 7s; 
+    animation-name: example;
+    animation-duration: 10s; 
+   
+  }
+         
+        
+        @keyframes example {
+          0%   { opacity: 0; }
+          25%  {color: rgb(14, 12, 11);}
+          40%  {color: rgb(8, 100, 88);}
+          50%  {color: rgb(40, 2, 177);}
+          70%  {color: rgb(33, 137, 235);}
+          85%  {color: rgb(168, 159, 253);}
+          100% { opacity: 1;}
+        }
+   
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes example{
+          0%   { opacity: 0; }
+          25%  {color: rgb(14, 12, 11);}
+          40%  {color: rgb(8, 100, 88);}
+          50%  {color: rgb(40, 2, 177);}
+          70%  {color: rgb(33, 137, 235);}
+          85%  {color: rgb(168, 159, 253);}
+          100% { opacity: 1; }
+        }
+       
+        .line
+          {
+            position: relative;
+            height:0px;
+            width:1px;
+            border-bottom:1px solid #000;
+            -webkit-animation: increase 10s;
+            -moz-animation:    increase 10s; 
+            -o-animation:      increase 10s; 
+            animation:         increase 10s; 
+            animation-fill-mode: forwards;
+            }
+          
+          @keyframes increase {
+            100% {
+              width: 800px;
+          }
+              }
+
+        /* Safari 4.0 - 8.0 */
+        @-webkit-keyframes increase {
+          100% {
+              width: 800px;
+          }
+      }
+      
+
+      @media screen and (max-width: 600px) {
+        .line{
+            position: relative;
+            height:0px;
+            width:1px;
+            border-bottom:1px solid #000;
+            -webkit-animation: increase2 10s;
+            -moz-animation:    increase2 10s; 
+            -o-animation:      increase2 10s; 
+            animation:         increase2 10s; 
+            animation-fill-mode: forwards;
+            }
+          }
+
+            @keyframes increase2 {
+              100% {
+                width: 400px;
+            }
+                }
+
+          /* Safari 4.0 - 8.0 */
+          @-webkit-keyframes increase2 {
+            100% {
+                width: 400px;
+            }
+        }
+
+
+      .MyName {
+        position: relative;
+        -webkit-animation-name: noorName; 
+        -webkit-animation-duration: 5s; 
+
+        animation-name: noorName;
+        animation-duration: 5s;
+      }
+
+      @keyframes noorName {
+        from {left: -300px;}
+        to{left: 0;}
+       
+      }
+        
+      /* Safari 4.0 - 8.0 */
+      @-webkit-keyframes noorName{
+        from {left: -300px;}
+        to{left: 0;}
+      }
+
+
 
 .hero-text h3{
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -597,3 +704,8 @@ body, html {
  
 }
 
+
+
+
+
+    
