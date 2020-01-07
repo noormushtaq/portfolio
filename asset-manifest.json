@@ -1,19 +1,18 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.02ea4d84.chunk.css",
-    "main.js": "/portfolio/static/js/main.b9c9f644.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b9c9f644.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.1ac3ac2f.chunk.css",
+    "main.js": "/portfolio/static/js/main.298efdbc.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.298efdbc.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.860ade9b.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.860ade9b.js.map",
-    "static/js/2.0bf10c7b.chunk.js": "/portfolio/static/js/2.0bf10c7b.chunk.js",
-    "static/js/2.0bf10c7b.chunk.js.map": "/portfolio/static/js/2.0bf10c7b.chunk.js.map",
+    "static/js/2.9ac760ff.chunk.js": "/portfolio/static/js/2.9ac760ff.chunk.js",
+    "static/js/2.9ac760ff.chunk.js.map": "/portfolio/static/js/2.9ac760ff.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.860050462b5e60d967f58af375205126.js": "/portfolio/precache-manifest.860050462b5e60d967f58af375205126.js",
+    "precache-manifest.c53cb02f701405c99db22637dcdfce17.js": "/portfolio/precache-manifest.c53cb02f701405c99db22637dcdfce17.js",
     "service-worker.js": "/portfolio/service-worker.js",
-    "static/css/main.02ea4d84.chunk.css.map": "/portfolio/static/css/main.02ea4d84.chunk.css.map",
-    "static/js/2.0bf10c7b.chunk.js.LICENSE": "/portfolio/static/js/2.0bf10c7b.chunk.js.LICENSE",
+    "static/css/main.1ac3ac2f.chunk.css.map": "/portfolio/static/css/main.1ac3ac2f.chunk.css.map",
+    "static/js/2.9ac760ff.chunk.js.LICENSE": "/portfolio/static/js/2.9ac760ff.chunk.js.LICENSE",
     "static/media/Draw1.jpg": "/portfolio/static/media/Draw1.0c555827.jpg",
-    "static/media/Image2.jpg": "/portfolio/static/media/Image2.67864889.jpg",
     "static/media/Resume.pdf": "/portfolio/static/media/Resume.404a154f.pdf",
     "static/media/bmi.PNG": "/portfolio/static/media/bmi.fd0f0780.PNG",
     "static/media/cartoon.png": "/portfolio/static/media/cartoon.ed3521af.png",
@@ -37,12 +36,13 @@
     "static/media/photo1.jpg": "/portfolio/static/media/photo1.8bf5d46b.jpg",
     "static/media/photo3.jpg": "/portfolio/static/media/photo3.a8d249ba.jpg",
     "static/media/photo4.jpg": "/portfolio/static/media/photo4.75fb4528.jpg",
-    "static/media/photo5.jpg": "/portfolio/static/media/photo5.8efb34c0.jpg"
+    "static/media/photo5.jpg": "/portfolio/static/media/photo5.8efb34c0.jpg",
+    "static/media/videoBack.mp4": "/portfolio/static/media/videoBack.e5390404.mp4"
   },
   "entrypoints": [
     "static/js/runtime-main.860ade9b.js",
-    "static/js/2.0bf10c7b.chunk.js",
-    "static/css/main.02ea4d84.chunk.css",
-    "static/js/main.b9c9f644.chunk.js"
+    "static/js/2.9ac760ff.chunk.js",
+    "static/css/main.1ac3ac2f.chunk.css",
+    "static/js/main.298efdbc.chunk.js"
   ]
 }
