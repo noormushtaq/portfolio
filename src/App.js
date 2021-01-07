@@ -24,7 +24,7 @@ import Logos from './pages/Logos';
 function App() {
 
   return (
-    <BrowserRouter basename={'/portfolio/'}>
+    <BrowserRouter basename={'/portfolio'}>
     
     <div className="pageContent">
       

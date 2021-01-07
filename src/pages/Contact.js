@@ -20,7 +20,7 @@ function Contact(){
             </p>
             
             <div>
-                <h2 className="contactTitle"> Contact Information</h2>
+                <h2 > Contact Information</h2>
                 <p className="contatText">Name: Noor Al-Sabbagh</p>
                 <p className="contatText">CellPhone:<a href="tel:3067160496">(306) 716-0496</a></p>
                 <p className="contatText">Email:<a href="mailto:noormushtaq1985@gmail.com">noormushatq1985@gmail.com</a></p>

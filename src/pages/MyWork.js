@@ -10,9 +10,11 @@ import daycare from './daycare.png';
 
 function MyWork(){
     return(
-
-        <div className="main-title">
-           <h1 >My Work</h1>
+        <div>
+        
+           <body style={{overflow:"hidden"}}>
+           <div className="main-title">
+           <h1>My Work</h1>
            <hr />
 
            <div className="MyWorkIcons">
@@ -36,7 +38,10 @@ function MyWork(){
            <br />
            <br />
            <br />
+          
 
+        </div>
+        </body>
         </div>
     )
 }

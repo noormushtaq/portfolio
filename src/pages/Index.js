@@ -1,14 +1,28 @@
 import React from 'react';
-import Image2 from './Image2.jpg';
+
 import {Link} from 'react-router-dom';
 
-function Index(){
+import videoBack from './videoBack.mp4';
 
+function Index(){
+  
     return(
         <div>
             <main>
-            <img className="backImage" src={Image2} alt="" />
-            <body style={{background:Image2 }}>
+
+            <body style={{overflow:"hidden"}} >
+            <video className='videoTag'
+                             autoPlay 
+                             loop 
+                             muted 
+                             config={{ file: { attributes: { controlsList: 'nodownload' } } }}
+                             onContextMenu={e => e.preventDefault()}
+                             disablePictureInPicture="false"
+                             src={videoBack}
+                             >
+               
+            </video>
+           
 
            <div className="background-image">
           
@@ -22,19 +36,18 @@ function Index(){
                      <h1 className="my-name"> Noor</h1>
                     </div>
                       <p className="changeTheColor">
-                        I am a web developer / designer
+                        I am a web developer/designer.
                         <br/>
-                          Live in saskatoon, Saskatchewan Canada.
+                        Live in Saskatoon, Saskatchewan Canada.
                         <br/>
-                          I have passion for web design and develop.
-                        <br/>
-                          I have valuable experience in HTML, CSS, and JavaScript. I can develop and design websites using REACTJS.
-                          <br />
-                          When I'm not coding, I illustrate using photoshop and Wacom. I paint by Acrylic or coloured pencil. I have a good experience in video editing. I like cooking and making sweets.
+                        I have a passion for web design and development using HTML, CSS, and JavaScript with REACTJS.
                         <br />
-                         Here you can find my <Link to="/about">Resume</Link> to know more about me
+                        When I'm not coding, I illustrate using photoshop and Wacom. I paint with acrylic or colored pencils. I have good experience in video editing. I like cooking and making sweets.
+                        <br />
+                         Here you can find my <Link to="/about" style={{color:"bisque"}}>Resume</Link> to know more about me.
                         </p>
-                        <div className="line"></div>
+                        
+
                     </div>
 
                    
@@ -47,6 +60,7 @@ function Index(){
     
                    
             </main>
+            
         </div>
     )
 

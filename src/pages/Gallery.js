@@ -28,7 +28,7 @@ function handledisplay(display){
 }    
    return(
         <div>
-          <main>
+          <main  onContextMenu={e => e.preventDefault()}>
               <div className="main-title">
                   <h1>Gallery</h1>
                   <hr />
@@ -39,15 +39,15 @@ function handledisplay(display){
                  <div className="showThePhoto">
 
                     <div class="photos"> 
-                        <img src={photo1} alt="" onClick={() => handledisplay(photo1)}/> 
+                        <img src={photo1} alt="" onClick={() => handledisplay(photo1)} /> 
                         <img src={photo3} alt="" onClick={() => handledisplay(photo3)} /> 
-                        <img src={photo4} alt="" onClick={() => handledisplay(photo4)}/> 
+                        <img src={photo4} alt="" onClick={() => handledisplay(photo4)} /> 
                         <img src={photo5} alt="" onClick={() => handledisplay(photo5)}/>
                         <img src={cartoon} alt="" onClick={() => handledisplay(cartoon)}/> 
                     </div>
 
                     <div className="photoContainer">
-                        <img src={display} alt="" /> 
+                        <img src={display} alt=""/> 
                    </div>
 
                   
