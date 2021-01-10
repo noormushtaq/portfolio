@@ -4,6 +4,7 @@ import {Link} from 'react-router-dom';
 
 import videoBack from './videoBack.mp4';
 
+
 function Index(){
   
     return(
@@ -38,13 +39,13 @@ function Index(){
                       <p className="changeTheColor">
                         I am a web developer/designer.
                         <br/>
-                        Live in Saskatoon, Saskatchewan Canada.
+                        Live in Saskatoon, Saskatchewan, Canada.
                         <br/>
                         I have a passion for web design and development using HTML, CSS, and JavaScript with REACTJS.
                         <br />
                         When I'm not coding, I illustrate using photoshop and Wacom. I paint with acrylic or colored pencils. I have good experience in video editing. I like cooking and making sweets.
                         <br />
-                         Here you can find my <Link to="/about" style={{color:"bisque"}}>Resume</Link> to know more about me.
+                         Here you can know more <Link to="/about" style={{color:"bisque",fontFamily:"Times New Roman",fontSize:"20px"}}>About</Link> me.
                         </p>
                         
 

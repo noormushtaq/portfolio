@@ -11,7 +11,7 @@ import {
 
 }from 'react-router-dom';
 
-import noor from './noor.jpg';
+import noor from './noor.png';
 
 import Index from './pages/Index';
 import Contact from './pages/Contact';
@@ -35,7 +35,7 @@ function App() {
               <nav >
               <ul>
               <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">Resume</Link></li>
+              <li><Link to="/about">About</Link></li>
               <li><Link to="/gallery">Gallery</Link></li>
               <li><Link to="/mywork">My Work</Link></li>
               <li><Link to="/contact">Contact Me</Link></li>
