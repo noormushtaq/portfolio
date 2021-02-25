@@ -6,7 +6,7 @@ import {Link} from 'react-router-dom';
 import onlinedoctor from './onlinedoctor.PNG';
 import bmi from './bmi.PNG';
 import logo from './logo.png';
-import daycare from './daycare.png';
+import ScienceDictionary from './ScienceDictionary.png';
 
 function MyWork(){
     return(
@@ -31,8 +31,8 @@ function MyWork(){
              <img src={logo} alt=""></img>
             </Link>
             
-            <a href="https://cecildaycare.com">
-             <img src={daycare} alt=""></img>
+            <a href="https://noormushtaq.github.io/kidsinfo/">
+             <img src={ScienceDictionary} alt=""></img>
             </a> 
            </div>
            <br />

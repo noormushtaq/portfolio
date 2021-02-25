@@ -43,7 +43,7 @@ function Index(){
                         <br/>
                         I have a passion for web design and development using HTML, CSS, and JavaScript with REACTJS.
                         <br />
-                        When I'm not coding, I illustrate using photoshop and Wacom. I paint with acrylic or colored pencils. I have good experience in video editing. I like cooking and making sweets.
+                        When I'm not coding, I illustrate or paint a creative artwork. 
                         <br />
                          Here you can know more <Link to="/about" style={{color:"bisque",fontFamily:"Times New Roman",fontSize:"20px"}}>About</Link> me.
                         </p>
